@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulário</title>
+</head>
+<body>
+    <main>
+        <h1>Formulário HTML</h1>
+            <form method="POST">
+                <fieldset id="dados"><legend>Preencha os dados</legend>
+                    <p>Nome <input type="text" name="tNome" id="cNome" size="40" placeholder="Digite seu nome"></p>
+                    <p>Sobrenome <input type="text" name="tSobrenome" id="cSobrenome" size="40" placeholder="Digite seu sobrenome"></p>
+                    <p>Data de nascimento <input type="date" name="tData" id="cData" placeholder="Digite sua data de nascimento"></p>
+                    <p>Identidade <input type="text" name="tId" id="cId" size="40" placeholder="Digite a sua identidade"></p>
+                    <p>CPF <input type="text" name="tCpf" id="cCpf" size="40" placeholder="Digite o número do seu CPF"></p>
+                <fieldset id="sexo"><legend>Sexo</legend>
+                    <input type="radio" name="tSexo" id="cMasc">Masculino 
+                    <input type="radio" name="tSexo" id="cFem">Feminino
+                </fieldset>
+                <fieldset id="estado-civil"><legend>Estado-civil</legend>
+                    <input type="radio" name="tEC" id="cSol">Solteiro(a)
+                    <input type="radio" name="tEC" id="cCas">Casado(a)
+                    <input type="radio" name="tEC" id="cUe">União estável
+                    <input type="radio" name="tEC" id="cDiv">Divorciado(a)
+                    <input type="radio" name="tEC" id="cVi">Viuvo(a)
+                </fieldset>
+                <fieldset id="contato"><legend>Contato</legend>
+                    <P>Telefone <input type="text" name="tTel" id="cTel" size="40" placeholder="Digite o número do seu telefone"></P>
+                    <P>Celular <input type="text" name="tCel" id="cCel" size="40" placeholder="Digite o número do seu celular"></P>
+                    <P>E-mail <input type="email" name="tEmail" id="cEmail" size="40" placeholder="Digite seu email"></P>
+                    <P>Endereço <input type="text" name="tEndereco" id="cEndereco" size="40" placeholder="Onde você mora"></P>
+                </fieldset>
+                </fieldset>
+                <br>
+                <input type="submit" value="Enviar">             
+            </form>
+            <nav>
+                <ul>
+                    <li><a href="index.html" title="Voltar a página">Voltar a página</a></li>
+                </ul>
+            </nav>
+    </main>   
+</body>
+</html>
